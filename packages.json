@@ -1,0 +1,1601 @@
+{
+    "packages": {
+        "behat/behat": {
+            "v2.4.5": {
+                "name": "behat/behat",
+                "version": "v2.4.5",
+                "version_normalized": "2.4.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git://github.com/Behat/Behat.git",
+                    "reference": "v2.4.5"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/behat-behat-v2.4.5-v2.4.5-a0fb83.tar",
+                    "reference": "v2.4.5",
+                    "shasum": "20f2ac46b6a66c3e426b06e6e21879036ee23ff3"
+                },
+                "require": {
+                    "behat/gherkin": ">=2.2.4,<2.3-dev",
+                    "php": ">=5.3.1",
+                    "symfony/config": ">=2.0,<2.3-dev",
+                    "symfony/console": ">=2.0,<2.3-dev",
+                    "symfony/dependency-injection": ">=2.0,<2.3-dev",
+                    "symfony/event-dispatcher": ">=2.0,<2.3-dev",
+                    "symfony/finder": ">=2.0,<2.3-dev",
+                    "symfony/translation": ">=2.0,<2.3-dev",
+                    "symfony/yaml": ">=2.0,<2.3-dev"
+                },
+                "suggest": {
+                    "behat/mink-extension": "for integration with Mink testing framework",
+                    "behat/symfony2-extension": "for integration with Symfony2 web framework",
+                    "behat/yii-extension": "for integration with Yii web framework"
+                },
+                "time": "2013-01-27 14:45:41",
+                "bin": [
+                    "bin/behat"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-develop": "2.4-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Behat\\Behat": "src/"
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Konstantin Kudryashov",
+                        "email": "ever.zet@gmail.com",
+                        "homepage": "http://everzet.com"
+                    }
+                ],
+                "description": "Scenario-oriented BDD framework for PHP 5.3",
+                "homepage": "http://behat.org/",
+                "keywords": [
+                    "BDD",
+                    "Behat",
+                    "Symfony2"
+                ]
+            }
+        },
+        "behat/gherkin": {
+            "v2.2.9": {
+                "name": "behat/gherkin",
+                "version": "v2.2.9",
+                "version_normalized": "2.2.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Behat/Gherkin.git",
+                    "reference": "v2.2.9"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/behat-gherkin-v2.2.9-v2.2.9-489a39.tar",
+                    "reference": "v2.2.9",
+                    "shasum": "fdececf807bd1935a6037a6b922bbeb012544df9"
+                },
+                "require": {
+                    "php": ">=5.3.1",
+                    "symfony/finder": ">=2.0,<2.4-dev"
+                },
+                "require-dev": {
+                    "symfony/config": ">=2.0,<2.4-dev",
+                    "symfony/translation": ">=2.0,<2.4-dev",
+                    "symfony/yaml": ">=2.0,<2.4-dev"
+                },
+                "suggest": {
+                    "symfony/config": "If you want to use Config component to manage resources",
+                    "symfony/translation": "If you want to use Symfony2 translations adapter",
+                    "symfony/yaml": "If you want to parse features, represented in YAML files"
+                },
+                "time": "2013-03-02 10:38:40",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-develop": "2.2-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Behat\\Gherkin": "src/"
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Konstantin Kudryashov",
+                        "email": "ever.zet@gmail.com",
+                        "homepage": "http://everzet.com"
+                    }
+                ],
+                "description": "Gherkin DSL parser for PHP 5.3",
+                "homepage": "http://behat.org/",
+                "keywords": [
+                    "BDD",
+                    "Behat",
+                    "DSL",
+                    "Symfony2",
+                    "parser"
+                ]
+            }
+        },
+        "behat/mink": {
+            "v1.4.3": {
+                "name": "behat/mink",
+                "version": "v1.4.3",
+                "version_normalized": "1.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Behat/Mink.git",
+                    "reference": "v1.4.3"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/behat-mink-v1.4.3-v1.4.3-f2b845.tar",
+                    "reference": "v1.4.3",
+                    "shasum": "b42a353438f69fe79644927b35a3edb5b287582b"
+                },
+                "require": {
+                    "php": ">=5.3.1",
+                    "symfony/css-selector": ">=2.0,<2.4-dev"
+                },
+                "suggest": {
+                    "behat/mink-browserkit-driver": "extremely fast headless driver for Symfony\\Kernel-based apps (Sf2, Silex)",
+                    "behat/mink-goutte-driver": "fast headless driver for any app without JS emulation",
+                    "behat/mink-selenium2-driver": "slow, but JS-enabled driver for any app (requires Selenium2)",
+                    "behat/mink-zombie-driver": "fast and JS-enabled headless driver for any app (requires node.js)"
+                },
+                "time": "2013-03-02 15:53:18",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-develop": "1.4.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Behat\\Mink": "src/"
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Konstantin Kudryashov",
+                        "email": "ever.zet@gmail.com",
+                        "homepage": "http://everzet.com"
+                    }
+                ],
+                "description": "Web acceptance testing framework for PHP 5.3",
+                "homepage": "http://mink.behat.org/",
+                "keywords": [
+                    "browser",
+                    "testing",
+                    "web"
+                ]
+            }
+        },
+        "behat/mink-extension": {
+            "v1.0.1": {
+                "name": "behat/mink-extension",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Behat/MinkExtension.git",
+                    "reference": "v1.0.1"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/behat-mink-extension-v1.0.1-v1.0.1-bc4e40.tar",
+                    "reference": "v1.0.1",
+                    "shasum": "1391d68461ae7145ac1aca7e4c234fa0209bb762"
+                },
+                "require": {
+                    "behat/behat": ">=2.4,<2.5-dev",
+                    "behat/mink": ">=1.4,<1.5-dev",
+                    "php": ">=5.3.2"
+                },
+                "require-dev": {
+                    "behat/mink-goutte-driver": "1.0.*",
+                    "fabpot/goutte": "1.0.*@dev"
+                },
+                "time": "2013-02-19 23:49:16",
+                "type": "behat-extension",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Behat\\MinkExtension": "src/"
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Konstantin Kudryashov",
+                        "email": "ever.zet@gmail.com",
+                        "homepage": "http://everzet.com"
+                    }
+                ],
+                "description": "Mink extension for Behat",
+                "homepage": "http://mink.behat.org",
+                "keywords": [
+                    "browser",
+                    "gui",
+                    "test",
+                    "web"
+                ]
+            }
+        },
+        "behat/mink-selenium2-driver": {
+            "v1.0.6": {
+                "name": "behat/mink-selenium2-driver",
+                "version": "v1.0.6",
+                "version_normalized": "1.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Behat/MinkSelenium2Driver.git",
+                    "reference": "v1.0.6"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/behat-mink-selenium2-driver-v1.0.6-v1.0.6-262645.tar",
+                    "reference": "v1.0.6",
+                    "shasum": "4ddcc5bc3b44d8170b53170b9be89b9f34766c82"
+                },
+                "require": {
+                    "behat/mink": ">=1.4.3,<1.5",
+                    "instaclick/php-webdriver": ">=1.0.12.0,<1.1",
+                    "php": ">=5.3.1"
+                },
+                "time": "2013-04-13 12:56:28",
+                "type": "mink-driver",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Behat\\Mink\\Driver": "src/"
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Konstantin Kudryashov",
+                        "email": "ever.zet@gmail.com",
+                        "homepage": "http://everzet.com"
+                    },
+                    {
+                        "name": "Pete Otaqui",
+                        "email": "pete@otaqui.com",
+                        "homepage": "https://github.com/pete-otaqui"
+                    }
+                ],
+                "description": "Selenium2 (WebDriver) driver for Mink framework",
+                "homepage": "http://mink.behat.org/",
+                "keywords": [
+                    "ajax",
+                    "browser",
+                    "javascript",
+                    "selenium",
+                    "testing",
+                    "webdriver"
+                ]
+            }
+        },
+        "instaclick/php-code-sniffer": {
+            "1.4.2": {
+                "name": "instaclick/php-code-sniffer",
+                "version": "1.4.2",
+                "version_normalized": "1.4.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/instaclick/PHP_CodeSniffer",
+                    "reference": "1.4.2"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/instaclick-php-code-sniffer-1.4.2-1.4.2-da5050.tar",
+                    "reference": "1.4.2",
+                    "shasum": "d67c877537006a6946fc7b5ff51894dfb23a5db9"
+                },
+                "require": {
+                    "php": ">=5.1.2"
+                },
+                "time": "2012-11-09 02:33:21",
+                "bin": [
+                    "scripts/phpcs"
+                ],
+                "type": "library",
+                "installation-source": "source",
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Greg Sherwood",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PHP_CodeSniffer tokenises PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+                "homepage": "http://www.squizlabs.com/php-codesniffer",
+                "keywords": [
+                    "phpcs",
+                    "standards"
+                ]
+            }
+        },
+        "instaclick/php-webdriver": {
+            "1.0.12": {
+                "name": "instaclick/php-webdriver",
+                "version": "1.0.12",
+                "version_normalized": "1.0.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/instaclick/php-webdriver.git",
+                    "reference": "1.0.12"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/instaclick-php-webdriver-1.0.12-1.0.12-89ccaa.tar",
+                    "reference": "1.0.12",
+                    "shasum": "f5640e555d3eef6d3ad5b5fba3215cff05edaaff"
+                },
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "time": "2013-02-19 18:37:07",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "WebDriver": "lib/"
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Justin Bishop",
+                        "email": "jubishop@gmail.com",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Anthon Pang",
+                        "email": "apang@softwaredevelopment.ca",
+                        "role": "Fork Maintainer"
+                    }
+                ],
+                "description": "PHP WebDriver for Selenium 2",
+                "homepage": "http://instaclick.com/torontotechjobs/",
+                "keywords": [
+                    "browser",
+                    "selenium",
+                    "webdriver",
+                    "webtest"
+                ]
+            },
+            "1.0.17": {
+                "name": "instaclick/php-webdriver",
+                "version": "1.0.17",
+                "version_normalized": "1.0.17.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/instaclick/php-webdriver.git",
+                    "reference": "47a6019553a7a5b42d35493276ffc2c9252c53d5"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/instaclick-php-webdriver-47a6019553a7a5b42d35493276ffc2c9252c53d5-zip-403190.tar",
+                    "reference": "1.0.17",
+                    "shasum": "b5f027ed817f612251597582470f3fde1fa6c5e7"
+                },
+                "require": {
+                    "ext-curl": "*",
+                    "php": ">=5.3.2"
+                },
+                "time": "2013-10-04 15:03:51",
+                "bin": [
+                    "bin/webunit"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "WebDriver": "lib/"
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Justin Bishop",
+                        "email": "jubishop@gmail.com",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Anthon Pang",
+                        "email": "apang@softwaredevelopment.ca",
+                        "role": "Fork Maintainer"
+                    }
+                ],
+                "description": "PHP WebDriver for Selenium 2",
+                "homepage": "http://instaclick.com/",
+                "keywords": [
+                    "browser",
+                    "selenium",
+                    "webdriver",
+                    "webtest"
+                ]
+            }
+        },
+        "mikey179/vfsStream": {
+            "v1.0.0": {
+                "name": "mikey179/vfsStream",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikey179/vfsStream",
+                    "reference": "v1.0.0"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/mikey179-vfsstream-v1.0.0-v1.0.0-7ac19e.tar",
+                    "reference": "v1.0.0",
+                    "shasum": "0e60a2cdd55db51f81ba3a94b93da378b4901d42"
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2012-05-15 12:05:40",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "org\\bovigo\\vfs": "src/main/php"
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "BSD"
+                ],
+                "homepage": "http://vfs.bovigo.org/"
+            }
+        },
+        "mockery/mockery": {
+            "0.8.0": {
+                "name": "mockery/mockery",
+                "version": "0.8.0",
+                "version_normalized": "0.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/padraic/mockery.git",
+                    "reference": "0.8.0"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/mockery-mockery-0.8.0-0.8.0-51107d.tar",
+                    "reference": "0.8.0",
+                    "shasum": "9043f2c45195a068ab6e319a687de30fc5e92c67"
+                },
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "require-dev": {
+                    "hamcrest/hamcrest": "1.1.0"
+                },
+                "time": "2013-04-01 12:13:17",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Mockery": "library/"
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Pádraic Brady",
+                        "email": "padraic.brady@gmail.com",
+                        "homepage": "http://blog.astrumfutura.com"
+                    }
+                ],
+                "description": "Mockery is a simple yet flexible PHP mock object framework for use in unit testing with PHPUnit, PHPSpec or any other testing framework. Its core goal is to offer a test double framework with a succint API capable of clearly defining all possible object operations and interactions using a human readable Domain Specific Language (DSL). Designed as a drop in alternative to PHPUnit's phpunit-mock-objects library, Mockery is easy to integrate with PHPUnit and can operate alongside phpunit-mock-objects without the World ending.",
+                "homepage": "http://github.com/padraic/mockery",
+                "keywords": [
+                    "BDD",
+                    "TDD",
+                    "library",
+                    "mock",
+                    "mock objects",
+                    "mockery",
+                    "stub",
+                    "test",
+                    "test double",
+                    "testing"
+                ]
+            }
+        },
+        "pdepend/pdepend": {
+            "1.1.0": {
+                "name": "pdepend/pdepend",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git://github.com/pdepend/pdepend.git",
+                    "reference": "1.1.0"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/pdepend-pdepend-1.1.0-1.1.0-528cf4.tar",
+                    "reference": "1.1.0",
+                    "shasum": "31aad764f65c2e41d181d080b148b4bbecf656b2"
+                },
+                "require": {
+                    "php": ">=5.2.3"
+                },
+                "time": "2012-09-12 04:09:19",
+                "bin": [
+                    "src/bin/pdepend"
+                ],
+                "type": "library",
+                "installation-source": "source",
+                "notification-url": "http://packagist.org/downloads/",
+                "description": "Official version of pdepend to be handled with Composer"
+            }
+        },
+        "phpmd/phpmd": {
+            "1.4.1": {
+                "name": "phpmd/phpmd",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git://github.com/phpmd/phpmd.git",
+                    "reference": "1.4.1"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/phpmd-phpmd-1.4.1-1.4.1-a9ec40.tar",
+                    "reference": "1.4.1",
+                    "shasum": "b51b54933cd3ca32e9a351bdc14201b3ffa2938e"
+                },
+                "require": {
+                    "pdepend/pdepend": "*",
+                    "php": ">=5.3.0"
+                },
+                "time": "2012-12-14 12:25:09",
+                "bin": [
+                    "src/bin/phpmd"
+                ],
+                "type": "library",
+                "installation-source": "source",
+                "notification-url": "http://packagist.org/downloads/",
+                "include-path": [
+                    "../../pdepend/pdepend/src/main/php",
+                    "src/main/php"
+                ],
+                "description": "Official version of PHPMD handled with Composer."
+            }
+        },
+        "phpunit/php-code-coverage": {
+            "1.2.9": {
+                "name": "phpunit/php-code-coverage",
+                "version": "1.2.9",
+                "version_normalized": "1.2.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                    "reference": "1.2.9"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/phpunit-php-code-coverage-1.2.9-1.2.9-2e3c13.tar",
+                    "reference": "1.2.9",
+                    "shasum": "d51337b8ccc6ae95943a0be9bf2671b65076e9ca"
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "phpunit/php-file-iterator": ">=1.3.0@stable",
+                    "phpunit/php-text-template": ">=1.1.1@stable",
+                    "phpunit/php-token-stream": ">=1.1.3@stable"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-xdebug": ">=2.0.5"
+                },
+                "time": "2013-02-26 18:55:56",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "PHP/"
+                    ]
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "include-path": [
+                    ""
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
+                "homepage": "https://github.com/sebastianbergmann/php-code-coverage",
+                "keywords": [
+                    "coverage",
+                    "testing",
+                    "xunit"
+                ]
+            }
+        },
+        "phpunit/php-file-iterator": {
+            "1.3.3": {
+                "name": "phpunit/php-file-iterator",
+                "version": "1.3.3",
+                "version_normalized": "1.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git://github.com/sebastianbergmann/php-file-iterator.git",
+                    "reference": "1.3.3"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/phpunit-php-file-iterator-1.3.3-1.3.3-aa4fb4.tar",
+                    "reference": "1.3.3",
+                    "shasum": "7c865fc441c4722f3d5ff5918e8015731d2ccc38"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2012-10-11 04:44:38",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "File/"
+                    ]
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "include-path": [
+                    ""
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "FilterIterator implementation that filters files based on a list of suffixes.",
+                "homepage": "http://www.phpunit.de/",
+                "keywords": [
+                    "filesystem",
+                    "iterator"
+                ]
+            }
+        },
+        "phpunit/php-text-template": {
+            "1.1.4": {
+                "name": "phpunit/php-text-template",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git://github.com/sebastianbergmann/php-text-template.git",
+                    "reference": "1.1.4"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/phpunit-php-text-template-1.1.4-1.1.4-1d0813.tar",
+                    "reference": "1.1.4",
+                    "shasum": "b3958234538b5ae130131f0f34d6958d6c0da810"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2012-10-31 11:15:28",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "Text/"
+                    ]
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "include-path": [
+                    ""
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Simple template engine.",
+                "homepage": "https://github.com/sebastianbergmann/php-text-template/",
+                "keywords": [
+                    "template"
+                ]
+            }
+        },
+        "phpunit/php-timer": {
+            "1.0.4": {
+                "name": "phpunit/php-timer",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git://github.com/sebastianbergmann/php-timer.git",
+                    "reference": "1.0.4"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/phpunit-php-timer-1.0.4-1.0.4-6288dc.tar",
+                    "reference": "1.0.4",
+                    "shasum": "dc7abce5023bf850ca0fbbff2d4abe0e169e5ec8"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2012-10-11 04:45:58",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "PHP/"
+                    ]
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "include-path": [
+                    ""
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Utility class for timing",
+                "homepage": "http://www.phpunit.de/",
+                "keywords": [
+                    "timer"
+                ]
+            }
+        },
+        "phpunit/php-token-stream": {
+            "1.1.5": {
+                "name": "phpunit/php-token-stream",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git://github.com/sebastianbergmann/php-token-stream.git",
+                    "reference": "1.1.5"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/phpunit-php-token-stream-1.1.5-1.1.5-1e5bd7.tar",
+                    "reference": "1.1.5",
+                    "shasum": "007196afafde5168c5f0dfd1f3b2711fb1a86b9f"
+                },
+                "require": {
+                    "ext-tokenizer": "*",
+                    "php": ">=5.3.3"
+                },
+                "time": "2012-10-11 04:47:14",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "PHP/"
+                    ]
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "include-path": [
+                    ""
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Wrapper around PHP's tokenizer extension.",
+                "homepage": "http://www.phpunit.de/",
+                "keywords": [
+                    "tokenizer"
+                ]
+            }
+        },
+        "phpunit/phpunit": {
+            "3.7.19": {
+                "name": "phpunit/phpunit",
+                "version": "3.7.19",
+                "version_normalized": "3.7.19.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/phpunit.git",
+                    "reference": "3.7.19"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/phpunit-phpunit-3.7.19-3.7.19-d2882e.tar",
+                    "reference": "3.7.19",
+                    "shasum": "4ea80582d7b50779bec072371688acb83e064068"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-pcre": "*",
+                    "ext-reflection": "*",
+                    "ext-spl": "*",
+                    "php": ">=5.3.3",
+                    "phpunit/php-code-coverage": ">=1.2.1,<1.3.0",
+                    "phpunit/php-file-iterator": ">=1.3.1",
+                    "phpunit/php-text-template": ">=1.1.1",
+                    "phpunit/php-timer": ">=1.0.2,<1.1.0",
+                    "phpunit/phpunit-mock-objects": ">=1.2.0,<1.3.0",
+                    "symfony/yaml": ">=2.0.0,<2.3.0"
+                },
+                "require-dev": {
+                    "pear-pear/pear": "1.9.4"
+                },
+                "suggest": {
+                    "ext-json": "*",
+                    "ext-simplexml": "*",
+                    "ext-tokenizer": "*",
+                    "phpunit/php-invoker": ">=1.1.0,<1.2.0"
+                },
+                "time": "2013-03-25 11:45:06",
+                "bin": [
+                    "composer/bin/phpunit"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.7.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "PHPUnit/"
+                    ]
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "include-path": [
+                    "",
+                    "../../symfony/yaml/"
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "The PHP Unit Testing framework.",
+                "homepage": "http://www.phpunit.de/",
+                "keywords": [
+                    "phpunit",
+                    "testing",
+                    "xunit"
+                ]
+            }
+        },
+        "phpunit/phpunit-mock-objects": {
+            "1.2.3": {
+                "name": "phpunit/phpunit-mock-objects",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git://github.com/sebastianbergmann/phpunit-mock-objects.git",
+                    "reference": "1.2.3"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/phpunit-phpunit-mock-objects-1.2.3-1.2.3-6f9f33.tar",
+                    "reference": "1.2.3",
+                    "shasum": "a66dc3084308e6a553c65b3cb5f16fad9a8cc81f"
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "phpunit/php-text-template": ">=1.1.1@stable"
+                },
+                "suggest": {
+                    "ext-soap": "*"
+                },
+                "time": "2013-01-13 10:24:48",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "PHPUnit/"
+                    ]
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "include-path": [
+                    ""
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Mock Object library for PHPUnit",
+                "homepage": "https://github.com/sebastianbergmann/phpunit-mock-objects/",
+                "keywords": [
+                    "mock",
+                    "xunit"
+                ]
+            }
+        },
+        "phpunit/phpunit-selenium": {
+            "1.2.12": {
+                "name": "phpunit/phpunit-selenium",
+                "version": "1.2.12",
+                "version_normalized": "1.2.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "git://github.com/sebastianbergmann/phpunit-selenium.git",
+                    "reference": "1.2.12"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/phpunit-phpunit-selenium-1.2.12-1.2.12-386ef6.tar",
+                    "reference": "1.2.12",
+                    "shasum": "27856d8910f4320bf1604a251b8162670043ec18"
+                },
+                "require": {
+                    "ext-curl": "*",
+                    "ext-dom": "*",
+                    "php": ">=5.3.3",
+                    "phpunit/phpunit": ">=3.7.0@stable"
+                },
+                "time": "2013-02-02 16:03:01",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "PHPUnit/"
+                    ]
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "include-path": [
+                    ""
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Selenium Server integration for PHPUnit",
+                "homepage": "http://www.phpunit.de/",
+                "keywords": [
+                    "selenium",
+                    "testing",
+                    "xunit"
+                ]
+            }
+        },
+        "symfony/config": {
+            "v2.2.1": {
+                "name": "symfony/config",
+                "version": "v2.2.1",
+                "version_normalized": "2.2.1.0",
+                "target-dir": "Symfony/Component/Config",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/Config.git",
+                    "reference": "v2.2.1"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/symfony-config-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "reference": "v2.2.1",
+                    "shasum": "7152037128d58b679215d3751428fdde5325eda5"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2013-03-01 10:42:10",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Symfony\\Component\\Config\\": ""
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "http://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Config Component",
+                "homepage": "http://symfony.com"
+            }
+        },
+        "symfony/console": {
+            "v2.2.1": {
+                "name": "symfony/console",
+                "version": "v2.2.1",
+                "version_normalized": "2.2.1.0",
+                "target-dir": "Symfony/Component/Console",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/Console.git",
+                    "reference": "v2.2.1"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/symfony-console-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "reference": "v2.2.1",
+                    "shasum": "9cbfc17aa9426238336ad8b3b3723fe2aebfc7c5"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2013-03-19 20:48:08",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Symfony\\Component\\Console\\": ""
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "http://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Console Component",
+                "homepage": "http://symfony.com"
+            }
+        },
+        "symfony/css-selector": {
+            "v2.2.1": {
+                "name": "symfony/css-selector",
+                "version": "v2.2.1",
+                "version_normalized": "2.2.1.0",
+                "target-dir": "Symfony/Component/CssSelector",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/CssSelector.git",
+                    "reference": "v2.2.1"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/symfony-css-selector-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "reference": "v2.2.1",
+                    "shasum": "c3dd0c607a07a0a1740d7e74e10c4be3fa53f15f"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2013-01-17 15:25:59",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Symfony\\Component\\CssSelector\\": ""
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "http://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony CssSelector Component",
+                "homepage": "http://symfony.com"
+            }
+        },
+        "symfony/dependency-injection": {
+            "v2.2.1": {
+                "name": "symfony/dependency-injection",
+                "version": "v2.2.1",
+                "version_normalized": "2.2.1.0",
+                "target-dir": "Symfony/Component/DependencyInjection",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/DependencyInjection.git",
+                    "reference": "v2.2.1"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/symfony-dependency-injection-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "reference": "v2.2.1",
+                    "shasum": "c66e199909878c12fabf257de76bfef2c4f5c84e"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "symfony/config": ">=2.2,<2.3-dev",
+                    "symfony/yaml": ">=2.0,<3.0"
+                },
+                "suggest": {
+                    "symfony/config": "2.2.*",
+                    "symfony/yaml": "2.2.*"
+                },
+                "time": "2013-03-23 07:49:54",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Symfony\\Component\\DependencyInjection\\": ""
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "http://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony DependencyInjection Component",
+                "homepage": "http://symfony.com"
+            }
+        },
+        "symfony/event-dispatcher": {
+            "v2.2.1": {
+                "name": "symfony/event-dispatcher",
+                "version": "v2.2.1",
+                "version_normalized": "2.2.1.0",
+                "target-dir": "Symfony/Component/EventDispatcher",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/EventDispatcher.git",
+                    "reference": "v2.2.1"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/symfony-event-dispatcher-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "reference": "v2.2.1",
+                    "shasum": "33c696bfcc2a19018ff95d1a0809b83d4c374fec"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "symfony/dependency-injection": ">=2.0,<3.0"
+                },
+                "suggest": {
+                    "symfony/dependency-injection": "2.2.*",
+                    "symfony/http-kernel": "2.2.*"
+                },
+                "time": "2013-02-11 11:26:43",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Symfony\\Component\\EventDispatcher\\": ""
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "http://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony EventDispatcher Component",
+                "homepage": "http://symfony.com"
+            }
+        },
+        "symfony/finder": {
+            "v2.2.1": {
+                "name": "symfony/finder",
+                "version": "v2.2.1",
+                "version_normalized": "2.2.1.0",
+                "target-dir": "Symfony/Component/Finder",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/Finder.git",
+                    "reference": "v2.2.1"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/symfony-finder-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "reference": "v2.2.1",
+                    "shasum": "4d282c770717cba9bd9b3980555313bb5bfa0030"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2013-04-01 07:51:50",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Symfony\\Component\\Finder\\": ""
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "http://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Finder Component",
+                "homepage": "http://symfony.com"
+            }
+        },
+        "symfony/symfony": {
+            "v2.2.1": {
+                "name": "symfony/symfony",
+                "version": "v2.2.1",
+                "version_normalized": "2.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/symfony.git",
+                    "reference": "v2.2.1"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/symfony-symfony-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "reference": "v2.2.1",
+                    "shasum": "87f6604ff63ae16102daf335468d74736db198cb"
+                },
+                "require": {
+                    "doctrine/common": ">=2.2,<3.0",
+                    "php": ">=5.3.3",
+                    "psr/log": ">=1.0,<2.0",
+                    "twig/twig": ">=1.11.0,<2.0"
+                },
+                "replace": {
+                    "symfony/browser-kit": "self.version",
+                    "symfony/class-loader": "self.version",
+                    "symfony/config": "self.version",
+                    "symfony/console": "self.version",
+                    "symfony/css-selector": "self.version",
+                    "symfony/dependency-injection": "self.version",
+                    "symfony/doctrine-bridge": "self.version",
+                    "symfony/dom-crawler": "self.version",
+                    "symfony/event-dispatcher": "self.version",
+                    "symfony/filesystem": "self.version",
+                    "symfony/finder": "self.version",
+                    "symfony/form": "self.version",
+                    "symfony/framework-bundle": "self.version",
+                    "symfony/http-foundation": "self.version",
+                    "symfony/http-kernel": "self.version",
+                    "symfony/locale": "self.version",
+                    "symfony/monolog-bridge": "self.version",
+                    "symfony/options-resolver": "self.version",
+                    "symfony/process": "self.version",
+                    "symfony/propel1-bridge": "self.version",
+                    "symfony/property-access": "self.version",
+                    "symfony/routing": "self.version",
+                    "symfony/security": "self.version",
+                    "symfony/security-bundle": "self.version",
+                    "symfony/serializer": "self.version",
+                    "symfony/stopwatch": "self.version",
+                    "symfony/swiftmailer-bridge": "self.version",
+                    "symfony/templating": "self.version",
+                    "symfony/translation": "self.version",
+                    "symfony/twig-bridge": "self.version",
+                    "symfony/twig-bundle": "self.version",
+                    "symfony/validator": "self.version",
+                    "symfony/web-profiler-bundle": "self.version",
+                    "symfony/yaml": "self.version"
+                },
+                "require-dev": {
+                    "doctrine/data-fixtures": "1.0.*",
+                    "doctrine/dbal": ">=2.2,<3.0",
+                    "doctrine/orm": ">=2.2,<3.0,>=2.2.3",
+                    "monolog/monolog": ">=1.3,<2.0",
+                    "propel/propel1": "1.6.*"
+                },
+                "time": "2013-04-06 10:16:33",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Symfony\\": "src/"
+                    },
+                    "classmap": [
+                        "src/Symfony/Component/HttpFoundation/Resources/stubs",
+                        "src/Symfony/Component/Locale/Resources/stubs"
+                    ]
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "http://symfony.com/contributors"
+                    }
+                ],
+                "description": "The Symfony PHP framework",
+                "homepage": "http://symfony.com",
+                "keywords": [
+                    "framework"
+                ]
+            }
+        },
+        "symfony/translation": {
+            "v2.2.1": {
+                "name": "symfony/translation",
+                "version": "v2.2.1",
+                "version_normalized": "2.2.1.0",
+                "target-dir": "Symfony/Component/Translation",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/Translation.git",
+                    "reference": "v2.2.1"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/symfony-translation-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "reference": "v2.2.1",
+                    "shasum": "d92f863cd7b91187606e0c562ea7e3b2cc7ee570"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "symfony/config": ">=2.0,<2.3-dev",
+                    "symfony/yaml": ">=2.2,<3.0"
+                },
+                "suggest": {
+                    "symfony/config": "2.2.*",
+                    "symfony/yaml": "2.2.*"
+                },
+                "time": "2013-04-01 08:06:05",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Symfony\\Component\\Translation\\": ""
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "http://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Translation Component",
+                "homepage": "http://symfony.com"
+            }
+        },
+        "symfony/yaml": {
+            "v2.2.1": {
+                "name": "symfony/yaml",
+                "version": "v2.2.1",
+                "version_normalized": "2.2.1.0",
+                "target-dir": "Symfony/Component/Yaml",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/Yaml.git",
+                    "reference": "v2.2.1"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://bakery.mashery.com/artifactory/php-composer/20130508151746/symfony-yaml-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "reference": "v2.2.1",
+                    "shasum": "bcba6c0774973457c8de3823173a5ecf995366e5"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2013-03-23 07:49:54",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-0": {
+                        "Symfony\\Component\\Yaml\\": ""
+                    }
+                },
+                "notification-url": "http://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "http://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Yaml Component",
+                "homepage": "http://symfony.com"
+            }
+        }
+    }
+}
