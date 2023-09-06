@@ -12,7 +12,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/behat-behat-v2.4.5-v2.4.5-a0fb83.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/behat-behat-v2.4.5-v2.4.5-a0fb83.tar",
                     "reference": "v2.4.5",
                     "shasum": "20f2ac46b6a66c3e426b06e6e21879036ee23ff3"
                 },
@@ -80,7 +80,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/behat-gherkin-v2.2.9-v2.2.9-489a39.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/behat-gherkin-v2.2.9-v2.2.9-489a39.tar",
                     "reference": "v2.2.9",
                     "shasum": "fdececf807bd1935a6037a6b922bbeb012544df9"
                 },
@@ -145,7 +145,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/behat-mink-v1.4.3-v1.4.3-f2b845.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/behat-mink-v1.4.3-v1.4.3-f2b845.tar",
                     "reference": "v1.4.3",
                     "shasum": "b42a353438f69fe79644927b35a3edb5b287582b"
                 },
@@ -204,7 +204,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/behat-mink-extension-v1.0.1-v1.0.1-bc4e40.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/behat-mink-extension-v1.0.1-v1.0.1-bc4e40.tar",
                     "reference": "v1.0.1",
                     "shasum": "1391d68461ae7145ac1aca7e4c234fa0209bb762"
                 },
@@ -263,7 +263,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/behat-mink-selenium2-driver-v1.0.6-v1.0.6-262645.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/behat-mink-selenium2-driver-v1.0.6-v1.0.6-262645.tar",
                     "reference": "v1.0.6",
                     "shasum": "4ddcc5bc3b44d8170b53170b9be89b9f34766c82"
                 },
@@ -325,7 +325,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/instaclick-php-code-sniffer-1.4.2-1.4.2-da5050.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/instaclick-php-code-sniffer-1.4.2-1.4.2-da5050.tar",
                     "reference": "1.4.2",
                     "shasum": "d67c877537006a6946fc7b5ff51894dfb23a5db9"
                 },
@@ -368,7 +368,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/instaclick-php-webdriver-1.0.12-1.0.12-89ccaa.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/instaclick-php-webdriver-1.0.12-1.0.12-89ccaa.tar",
                     "reference": "1.0.12",
                     "shasum": "f5640e555d3eef6d3ad5b5fba3215cff05edaaff"
                 },
@@ -424,7 +424,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/instaclick-php-webdriver-47a6019553a7a5b42d35493276ffc2c9252c53d5-zip-403190.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/instaclick-php-webdriver-47a6019553a7a5b42d35493276ffc2c9252c53d5-zip-403190.tar",
                     "reference": "1.0.17",
                     "shasum": "b5f027ed817f612251597582470f3fde1fa6c5e7"
                 },
@@ -486,7 +486,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/mikey179-vfsstream-v1.0.0-v1.0.0-7ac19e.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/mikey179-vfsstream-v1.0.0-v1.0.0-7ac19e.tar",
                     "reference": "v1.0.0",
                     "shasum": "0e60a2cdd55db51f81ba3a94b93da378b4901d42"
                 },
@@ -520,7 +520,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/mockery-mockery-0.8.0-0.8.0-51107d.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/mockery-mockery-0.8.0-0.8.0-51107d.tar",
                     "reference": "0.8.0",
                     "shasum": "9043f2c45195a068ab6e319a687de30fc5e92c67"
                 },
@@ -577,7 +577,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/pdepend-pdepend-1.1.0-1.1.0-528cf4.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/pdepend-pdepend-1.1.0-1.1.0-528cf4.tar",
                     "reference": "1.1.0",
                     "shasum": "31aad764f65c2e41d181d080b148b4bbecf656b2"
                 },
@@ -606,7 +606,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/phpmd-phpmd-1.4.1-1.4.1-a9ec40.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/phpmd-phpmd-1.4.1-1.4.1-a9ec40.tar",
                     "reference": "1.4.1",
                     "shasum": "b51b54933cd3ca32e9a351bdc14201b3ffa2938e"
                 },
@@ -640,7 +640,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/phpunit-php-code-coverage-1.2.9-1.2.9-2e3c13.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/phpunit-php-code-coverage-1.2.9-1.2.9-2e3c13.tar",
                     "reference": "1.2.9",
                     "shasum": "d51337b8ccc6ae95943a0be9bf2671b65076e9ca"
                 },
@@ -697,7 +697,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/phpunit-php-file-iterator-1.3.3-1.3.3-aa4fb4.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/phpunit-php-file-iterator-1.3.3-1.3.3-aa4fb4.tar",
                     "reference": "1.3.3",
                     "shasum": "7c865fc441c4722f3d5ff5918e8015731d2ccc38"
                 },
@@ -746,7 +746,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/phpunit-php-text-template-1.1.4-1.1.4-1d0813.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/phpunit-php-text-template-1.1.4-1.1.4-1d0813.tar",
                     "reference": "1.1.4",
                     "shasum": "b3958234538b5ae130131f0f34d6958d6c0da810"
                 },
@@ -794,7 +794,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/phpunit-php-timer-1.0.4-1.0.4-6288dc.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/phpunit-php-timer-1.0.4-1.0.4-6288dc.tar",
                     "reference": "1.0.4",
                     "shasum": "dc7abce5023bf850ca0fbbff2d4abe0e169e5ec8"
                 },
@@ -842,7 +842,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/phpunit-php-token-stream-1.1.5-1.1.5-1e5bd7.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/phpunit-php-token-stream-1.1.5-1.1.5-1e5bd7.tar",
                     "reference": "1.1.5",
                     "shasum": "007196afafde5168c5f0dfd1f3b2711fb1a86b9f"
                 },
@@ -891,7 +891,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/phpunit-phpunit-3.7.19-3.7.19-d2882e.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/phpunit-phpunit-3.7.19-3.7.19-d2882e.tar",
                     "reference": "3.7.19",
                     "shasum": "4ea80582d7b50779bec072371688acb83e064068"
                 },
@@ -969,7 +969,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/phpunit-phpunit-mock-objects-1.2.3-1.2.3-6f9f33.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/phpunit-phpunit-mock-objects-1.2.3-1.2.3-6f9f33.tar",
                     "reference": "1.2.3",
                     "shasum": "a66dc3084308e6a553c65b3cb5f16fad9a8cc81f"
                 },
@@ -1022,7 +1022,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/phpunit-phpunit-selenium-1.2.12-1.2.12-386ef6.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/phpunit-phpunit-selenium-1.2.12-1.2.12-386ef6.tar",
                     "reference": "1.2.12",
                     "shasum": "27856d8910f4320bf1604a251b8162670043ec18"
                 },
@@ -1076,7 +1076,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/symfony-config-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/symfony-config-v2.2.1-v2.2.1-bc1fc3.tar",
                     "reference": "v2.2.1",
                     "shasum": "7152037128d58b679215d3751428fdde5325eda5"
                 },
@@ -1127,7 +1127,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/symfony-console-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/symfony-console-v2.2.1-v2.2.1-bc1fc3.tar",
                     "reference": "v2.2.1",
                     "shasum": "9cbfc17aa9426238336ad8b3b3723fe2aebfc7c5"
                 },
@@ -1178,7 +1178,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/symfony-css-selector-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/symfony-css-selector-v2.2.1-v2.2.1-bc1fc3.tar",
                     "reference": "v2.2.1",
                     "shasum": "c3dd0c607a07a0a1740d7e74e10c4be3fa53f15f"
                 },
@@ -1229,7 +1229,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/symfony-dependency-injection-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/symfony-dependency-injection-v2.2.1-v2.2.1-bc1fc3.tar",
                     "reference": "v2.2.1",
                     "shasum": "c66e199909878c12fabf257de76bfef2c4f5c84e"
                 },
@@ -1288,7 +1288,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/symfony-event-dispatcher-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/symfony-event-dispatcher-v2.2.1-v2.2.1-bc1fc3.tar",
                     "reference": "v2.2.1",
                     "shasum": "33c696bfcc2a19018ff95d1a0809b83d4c374fec"
                 },
@@ -1346,7 +1346,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/symfony-finder-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/symfony-finder-v2.2.1-v2.2.1-bc1fc3.tar",
                     "reference": "v2.2.1",
                     "shasum": "4d282c770717cba9bd9b3980555313bb5bfa0030"
                 },
@@ -1396,7 +1396,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/symfony-symfony-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/symfony-symfony-v2.2.1-v2.2.1-bc1fc3.tar",
                     "reference": "v2.2.1",
                     "shasum": "87f6604ff63ae16102daf335468d74736db198cb"
                 },
@@ -1500,7 +1500,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/symfony-translation-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/symfony-translation-v2.2.1-v2.2.1-bc1fc3.tar",
                     "reference": "v2.2.1",
                     "shasum": "d92f863cd7b91187606e0c562ea7e3b2cc7ee570"
                 },
@@ -1559,7 +1559,7 @@
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://github.com/ahamid-tibco/php-composer/20130508151746/symfony-yaml-v2.2.1-v2.2.1-bc1fc3.tar",
+                    "url": "https://github.com/ahamid-tibco/php-composer/blob/main/20130508151746/symfony-yaml-v2.2.1-v2.2.1-bc1fc3.tar",
                     "reference": "v2.2.1",
                     "shasum": "bcba6c0774973457c8de3823173a5ecf995366e5"
                 },
